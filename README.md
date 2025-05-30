@@ -1,33 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Typing Speed Calculator - README</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      padding: 20px;
-      background-color: #f8f9fa;
-      color: #333;
-    }
-    h1, h2, h3 {
-      color: #2c3e50;
-    }
-    code {
-      background-color: #eee;
-      padding: 2px 4px;
-      border-radius: 4px;
-    }
-    pre {
-      background-color: #eee;
-      padding: 10px;
-      overflow-x: auto;
-    }
-  </style>
-</head>
-<body>
+
 
   <h1>⌨️ Typing Speed Calculator</h1>
   <p>A simple and responsive web application that lets users test and improve their typing speed and accuracy in real time.</p>
