@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>⚡ Typing Speed Test</h1>
+
+        <div class="text-display" id="textDisplay"></div>
+
+        <textarea class="input-area" id="textInput" placeholder="Click here and start typing..." rows="3"></textarea>
+
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-value" id="wpm">0</div>
+                <div class="stat-label">WPM</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="accuracy">100%</div>
+                <div class="stat-label">Accuracy</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="timer">0</div>
+                <div class="stat-label">Time (s)</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="progress">0%</div>
+                <div class="stat-label">Progress</div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="btn btn-primary" id="newTest">New Test</button>
+            <button class="btn btn-secondary" id="resetTest">Reset</button>
+        </div>
+
+        <div class="results" id="results">
+            <h3>🎉 Test Complete!</h3>
+            <div class="results-grid">
+                <div class="result-item">
+                    <div class="stat-value" id="finalWPM">0</div>
+                    <div class="stat-label">WPM</div>
+                </div>
+                <div class="result-item">
+                    <div class="stat-value" id="finalAccuracy">0%</div>
+                    <div class="stat-label">Accuracy</div>
+                </div>
+                <div class="result-item">
+                    <div class="stat-value" id="finalTime">0</div>
+                    <div class="stat-label">Time (s)</div>
+                </div>
+                <div class="result-item">
+                    <div class="stat-value" id="finalChars">0</div>
+                    <div class="stat-label">Characters</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
